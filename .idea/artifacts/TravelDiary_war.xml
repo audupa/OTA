@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="TravelDiary:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
+    <output-path>$PROJECT_DIR$/../TravelDiary/target</output-path>
     <root id="archive" name="TravelDiary-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="TravelDiary:war exploded" />
     </root>

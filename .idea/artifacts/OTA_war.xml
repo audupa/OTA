@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OTA:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="OTA-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="OTA:war exploded" />
+    </root>
+  </artifact>
+</component>

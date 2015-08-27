@@ -10,14 +10,17 @@
 	<context:annotation-config />
 
 	<!-- Scan for Jersey Rest Annotations -->
-	<context:component-scan base-package="com.intuit.traveldiary" />
+	<context:component-scan base-package="com.intuit.OTA" />
 
     <bean id="basicEncryptor" class="org.jasypt.util.text.BasicTextEncryptor">
         <property name="password" value="1ntu1t$!@#$" />
     </bean>
 
-    <bean id="travelBean" class="com.intuit.traveldiary.resource.TravelResourceImpl">
+    <!--<bean id="userBean" class="com.intuit.OTA.resource.UserResourceImpl">
     </bean>
+
+    <bean id="userBean" class="com.intuit.OTA.resource.UserResourceImpl">
+    </bean>-->
 
     <bean id="propertyConfigurer"
           class="org.jasypt.spring3.properties.EncryptablePropertyPlaceholderConfigurer">
